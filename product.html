@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+     <!-- Responsive NAvBar -->
+     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">GreenDen</h1>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 w-8 md:hidden">
+            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+          </svg>
+          
+                          
+        <ul class="flex gap-5 p-3 text-gray hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+     <!-- Our Product -->
+     <section class="text-center">
+        <h1 class="text-3xl font-bold text-center mt-5">Our Product</h1>
+        <input type="text" class="border border-black p-2 m-5 rounded" style="width:80%;" placeholder="Search a Product...">
+    </section>
+
+    <!-- search product -->
+    <section class="text-center p-4">
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-10">
+            <div class="w-60">
+                <img src="./img/pot3.webp" alt="" class="inline hover:shadow-xl transform hover:translate-y-2 mb-10">
+                <p>Liily Plant</p>
+                <p>$20</p>
+            </div>
+            <div class="w-60">
+                <img src="./img/pot4.jpg" alt="" class="inline hover:shadow-xl transform hover:translate-y-2 mb-10">
+                <p>Liily Plant</p>
+                <p>$20</p>
+            </div>
+            <div class="w-60">
+                <img src="./img/pot5.avif" alt="" class="inline hover:shadow-xl transform hover:translate-y-2 mb-10">
+                <p>Liily Plant</p>
+                <p>$20</p>
+            </div>
+            <div class="w-60">
+                <img src="./img/pot6.jpg" alt="" class="inline hover:shadow-xl transform hover:translate-y-2 mb-10">
+                <p>Liily Plant</p>
+                <p>$20</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-10">
+            <div class="w-60">
+                <img src="./img/pot3.webp" alt="" class="inline hover:shadow-xl transform hover:translate-y-2 mb-10">
+                <p>Liily Plant</p>
+                <p>$20</p>
+            </div>
+            <div class="w-60">
+                <img src="./img/pot4.jpg" alt="" class="inline hover:shadow-xl transform hover:translate-y-2 mb-10">
+                <p>Liily Plant</p>
+                <p>$20</p>
+            </div>
+            <div class="w-60">
+                <img src="./img/pot5.avif" alt="" class="inline hover:shadow-xl transform hover:translate-y-2 mb-10">
+                <p>Liily Plant</p>
+                <p>$20</p>
+            </div>
+            <div class="w-60">
+                <img src="./img/pot6.jpg" alt="" class="inline hover:shadow-xl transform hover:translate-y-2 mb-10">
+                <p>Liily Plant</p>
+                <p>$20</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+        <p>@ 2021 Greenday.com</p>
+    </section>
+</body>
+</html>
